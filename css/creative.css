@@ -3,6 +3,9 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ /*color #134f5c **/
+ /* color 45818e**/
 html,
 body {
   height: 100%;
@@ -28,7 +31,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #0883a4;
 }
 h1,
 h2,
@@ -46,7 +49,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #604e2c;
+  background-color: #134f5c;
 }
 .bg-dark {
   background-color: #222222;
@@ -60,6 +63,9 @@ section {
 }
 aside {
   padding: 50px 0;
+}
+.main-title {
+  color: #fff;
 }
 .no-padding {
   padding: 0;
@@ -131,7 +137,7 @@ aside {
     color: white;
   }
   .navbar-default.affix {
-    background-color: #2e2514;
+    background-color: #45818e;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
@@ -160,11 +166,12 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-/*  background-image: url('http://www.planwallpaper.com/static/images/HD-Wallpapers-89.jpg');*/
-  background-image: url('http://www.planwallpaper.com/static/images/Autumn-Garden-HD-Wallpaper1.jpg');
   text-align: center;
   color: #134f5c;
+  background-image: url('../img/portfolio/fullsize/background1.jpeg');
   background-color: #d6d4d0;
+/*  background-image: url('http://www.planwallpaper.com/static/images/HD-Wallpapers-89.jpg');*/
+/*  background-image: url('http://www.planwallpaper.com/static/images/Autumn-Garden-HD-Wallpaper1.jpg');*/
 }
 header .header-content {
   position: relative;
